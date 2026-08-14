@@ -1,0 +1,1 @@
+ALTER TABLE "PatientXrayRecord" ADD COLUMN "imageUrl" text;

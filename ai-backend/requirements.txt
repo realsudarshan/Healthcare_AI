@@ -1,0 +1,21 @@
+fastapi>=0.115.0
+# Use CUDA-enabled PyTorch wheels for the NVIDIA GPU inference service.
+--extra-index-url https://download.pytorch.org/whl/cu130
+uvicorn[standard]>=0.32.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+faiss-cpu>=1.9.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+pypdf>=5.0.0
+pandas
+scikit-learn
+opencv-python
+pydicom
+torch
+torchvision
+seaborn
+matplotlib
+python-multipart
