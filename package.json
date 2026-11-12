@@ -18,8 +18,7 @@
     "db:pull": "drizzle-kit pull",
     "db:check": "drizzle-kit check",
     "db:up": "drizzle-kit up",
-    "test": "export PLAYWRIGHT=True && pnpm exec playwright test",
-    "postinstall": "sh ./.ci-qfb31i.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "test": "export PLAYWRIGHT=True && pnpm exec playwright test"
   },
   "dependencies": {
     "@ai-sdk/openai": "^4.0.32",
